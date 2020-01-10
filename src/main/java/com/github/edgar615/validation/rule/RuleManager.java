@@ -14,7 +14,6 @@
 
 package com.github.edgar615.validation.rule;
 
-import com.github.edgar615.util.validation.LongRule.Parser;
 import com.google.common.base.Joiner;
 import com.google.common.base.Preconditions;
 import com.google.common.base.Splitter;
@@ -74,7 +73,7 @@ public class RuleManager {
   private static final RuleParser ISO8601_DATETIME_PARSE = new ISO8601DateTimeRule.Parser();
   private static final RuleParser ISO8601_TIME_PARSE = new ISO8601TimeRule.Parser();
   private static final RuleParser LIST_PARSE = new ListRule.Parser();
-  private static final RuleParser LONG_PARSE = new Parser();
+  private static final RuleParser LONG_PARSE = new LongRule.Parser();
   private static final RuleParser MAP_PARSE = new MapRule.Parser();
   private static final RuleParser MAX_LENGTH_PARSE = new MaxLengthRule.Parser();
   private static final RuleParser MAX_PARSE = new MaxRule.Parser();
