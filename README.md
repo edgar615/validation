@@ -1,0 +1,2 @@
+之前实现API网关的时候，做了一个校验框架，有点重复轮子的意思
+在保留这部分代码的同时，引入了hibernate-validator，后面的校验将改为hibernate-validator
