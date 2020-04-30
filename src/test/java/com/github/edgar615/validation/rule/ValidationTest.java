@@ -14,9 +14,7 @@
 
 package com.github.edgar615.validation.rule;
 
-import com.github.edgar615.util.validation.Rule;
-import com.github.edgar615.util.validation.ValidationException;
-import com.github.edgar615.util.validation.Validations;
+import com.github.edgar615.validation.ValidationException;
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.Multimap;
 import java.util.ArrayList;
